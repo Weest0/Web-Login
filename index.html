@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Loading</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+	</head>
+	<body id="fundo">
+		<div class="corpo">
+			<div class="op" id="op">
+				<video id="stars" height="250" width="250" autoplay preload>
+					<source src="style/videos/To the stars.mp4" type="video/mp4">
+				</video>
+				<div class="dados">
+					<input type="email" name="email" placeholder="Email" id="email" class="campo">
+					<label id="aviso1" class="aviso"></label>
+					<input type="password" name="senha" placeholder="Senha" id="senha" class="campo">
+					<label id="aviso2" class="aviso"></label>
+					<input type="submit" value="Entrar" id="enviar" class="btn" onclick="validar()">
+					<input type="button" value="" id="tema" class="btn-tema" onclick="tema()">
+				</div>
+				
+			</div>
+		</div>
+		<script type="text/javascript" src="script/script.js"></script>
+	</body>
+</html>
