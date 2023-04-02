@@ -13,14 +13,16 @@
 					<source src="style/videos/To the stars.mp4" type="video/mp4">
 				</video>
 				<div class="dados">
+					<label id="aviso3" class="aviso"></label>
 					<input type="email" name="email" placeholder="Email" id="email" class="campo">
 					<label id="aviso1" class="aviso"></label>
 					<input type="password" name="senha" placeholder="Senha" id="senha" class="campo">
 					<label id="aviso2" class="aviso"></label>
-					<input type="submit" value="Entrar" id="enviar" class="btn" onclick="validar()">
+					<a href="#" id="next">
+						<input type="submit" value="Entrar" id="enviar" class="btn" onclick="validar(); user()">
+					</a>
 					<input type="button" value="" id="tema" class="btn-tema" onclick="tema()">
 				</div>
-				
 			</div>
 		</div>
 		<script type="text/javascript" src="script/script.js"></script>
