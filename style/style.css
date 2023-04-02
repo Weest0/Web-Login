@@ -71,11 +71,24 @@ html{
 	background-size: auto;
 	background-repeat: no-repeat; 
 }
+.vid{
+	height: 250px;
+	width: 250px;
+}
 
-@media (max-width: 640px){
+@media (max-width: 1080px){
+	body{
+		font-family: "Andale Mono","Arial",sans-serif;
+		height: 100%;
+		margin: 0;
+		overflow: hidden;
+	}
+	html{
+		height: 100%;
+	}
 	.corpo{
 		width: 100%;
-		height: 40rem;
+		height: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -85,8 +98,8 @@ html{
 		border-radius: 14px;
 		display: flex;
 		flex-direction: column;
-		height: 550px;
-		width: 400px;
+		height: 1000px;
+		width: 700px;
 		justify-content: center;
 		align-items: center;
 		background-color: #f2f2f2;
@@ -99,11 +112,12 @@ html{
 		align-items: center;
 	}
 	.campo{
+		font-size: 25px;
 		outline: none;
 		border: none;
 		border-bottom: 2px solid grey;
-		width: 200px;
-		height: 30px;
+		width: 500px;
+		height: 60px;
 		margin: 10px;
 		background-color: transparent;
 	}
@@ -114,9 +128,9 @@ html{
 		background-color: #4bc87f;
 		color: white;
 		border: 2px solid #4bc87f;
-		width: 130px;
-		height: 30px;
-		border-radius: 20px;
+		width: 230px;
+		height: 70px;
+		border-radius: 40px;
 		margin: 10px;
 	}
 	.btn:hover{
@@ -124,11 +138,11 @@ html{
 		cursor: pointer;
 	}
 	.aviso{
-		font-size: 13px;
+		font-size: 20px;
 	}
 	.btn-tema{
-		height: 32px;
-		width: 32px;
+		height: 64px;
+		width: 64px;
 		border-radius: 50%;
 		border: none;
 		background-image: url('images/lua.png');
@@ -136,5 +150,9 @@ html{
 		background-position: center;
 		background-size: auto;
 		background-repeat: no-repeat; 
+	}
+	.vid{
+		height: 500px;
+		width: 500px;
 	}
 }
